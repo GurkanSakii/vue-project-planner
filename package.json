@@ -1,0 +1,29 @@
+{
+  "name": "vue-project-planner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "concurrently npm:watch:*",
+    "watch:ser": "vue-cli-service serve",
+    "watch:api": "json-server --watch db.json",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.51",
+    "@googlemaps/js-api-loader": "^1.13.10",
+    "concurrently": "^7.1.0",
+    "core-js": "^3.8.3",
+    "json-server": "^0.17.0",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
+  }
+}

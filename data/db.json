@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "details": "Lorem ipsum1",
+      "complete": true
+    },
+    {
+        "id": 2,
+        "title": "Project 2",
+        "details": "Lorem ipsum2",
+        "complete": false
+      },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "details": "Lorem ipsum3",
+      "complete": false
+    },
+    {
+      "title": "Project 4",
+      "details": "Lorem ipsum4",
+      "complete": true,
+      "id": 4
+    },
+    {
+      "title": "Project 5",
+      "details": "Lorem ipsum5",
+      "complete": true,
+      "id": 5
+    }
+  ]
+}
